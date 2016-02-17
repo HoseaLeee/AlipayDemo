@@ -13,14 +13,14 @@
         </dict>
     ；
     
-   6. Info.plist  SourceCode打开 增加支付宝白名单（不然支付宝客户端无法打开）
+  6. Info.plist  SourceCode打开 增加支付宝白名单（不然支付宝客户端无法打开）
  
-    <key>LSApplicationQueriesSchemes</key>
-    <array>
-        <string>alipay</string>
-    </array>
+        <key>LSApplicationQueriesSchemes</key>
+        <array>
+            <string>alipay</string>
+        </array>
     ；
-   
+
    7. 在本头文件中设置kPartnerID、kSellerAccount、kNotifyURL、kAppScheme和kPrivateKey的值（所有的值在支付宝回复的邮件里面：注意，建议除appScheme以外的字段都从服务器请求）；
    8. 点击项目名称,点击“Info”选项卡，在URL types里面添加一项，Identifier可以不填，URL schemes必须和appScheme的值相同，用于支付宝处理回到应用的事件（建议使用BundleID）；
    9. 在需要用的地方导入“AlipayHeader.h”，并使用“[AlipayRequestConfig alipayWithPartner:...”方法进行支付（增添回调）；
