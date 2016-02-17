@@ -15,12 +15,6 @@
         <array>
            <string>alipay</string>
         </array>
-6. 增加支付宝白名单（不然支付宝客户端无法打开）Info.plist  SourceCode打开
- 
-        <key>LSApplicationQueriesSchemes</key>
-        <array>
-           <string>alipay</string>
-        </array>
 
 
    7. 在本头文件中设置kPartnerID、kSellerAccount、kNotifyURL、kAppScheme和kPrivateKey的值（所有的值在支付宝回复的邮件里面：注意，建议除appScheme以外的字段都从服务器请求）；
