@@ -11,8 +11,7 @@
             <key>NSAllowsArbitraryLoads</key>
             <true/>
         </dict>
-
-  6. 增加支付宝白名单（不然支付宝客户端无法打开）Info.plist  SourceCode打开
+6. 增加支付宝白名单（不然支付宝客户端无法打开）Info.plist  SourceCode打开
  
         <key>LSApplicationQueriesSchemes</key>
         <array>
