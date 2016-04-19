@@ -47,6 +47,11 @@
 
 #import <Foundation/Foundation.h>   // 导入Foundation，防止某些类出现类似：“Cannot find interface declaration for 'NSObject', superclass of 'Base64'”的错误提示
 
+/**
+ *  支付宝安全支付回调通知名称
+ *
+ */
+#define kAlipaySafePayResult @"ALIPAYSAFEPAYRESULT"
 
 /**
  *  partner:合作身份者ID,以 2088 开头由 16 位纯数字组成的字符串。

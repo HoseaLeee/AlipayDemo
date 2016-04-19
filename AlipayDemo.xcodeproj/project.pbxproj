@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39C1F0961CC487B800C9764D /* AppDelegate+Alipay.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C1F0951CC487B800C9764D /* AppDelegate+Alipay.m */; };
 		8CD108261C74589A00EF988F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD108251C74589A00EF988F /* main.m */; };
 		8CD108291C74589A00EF988F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD108281C74589A00EF988F /* AppDelegate.m */; };
 		8CD1082C1C74589A00EF988F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CD1082B1C74589A00EF988F /* ViewController.m */; };
@@ -51,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		39C1F0941CC487B800C9764D /* AppDelegate+Alipay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AppDelegate+Alipay.h"; sourceTree = "<group>"; };
+		39C1F0951CC487B800C9764D /* AppDelegate+Alipay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AppDelegate+Alipay.m"; sourceTree = "<group>"; };
 		8CD108211C74589A00EF988F /* AlipayDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlipayDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CD108251C74589A00EF988F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8CD108271C74589A00EF988F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -285,6 +288,8 @@
 				8CDB3FB81C759E190012B7B4 /* Order.h */,
 				8CDB3FB91C759E190012B7B4 /* Order.m */,
 				8CDB3FBA1C759E190012B7B4 /* Util */,
+				39C1F0941CC487B800C9764D /* AppDelegate+Alipay.h */,
+				39C1F0951CC487B800C9764D /* AppDelegate+Alipay.m */,
 			);
 			path = AlipayFiles;
 			sourceTree = "<group>";
@@ -540,6 +545,7 @@
 				8CDB3FD91C759E190012B7B4 /* RSADataSigner.m in Sources */,
 				8CDB3FD61C759E190012B7B4 /* MD5DataSigner.m in Sources */,
 				8CDB3FD51C759E190012B7B4 /* DataVerifier.m in Sources */,
+				39C1F0961CC487B800C9764D /* AppDelegate+Alipay.m in Sources */,
 				8CDB3FD21C759E190012B7B4 /* Order.m in Sources */,
 				8CDB3FD41C759E190012B7B4 /* DataSigner.m in Sources */,
 				8CDB3FD71C759E190012B7B4 /* NSDataEx.m in Sources */,
